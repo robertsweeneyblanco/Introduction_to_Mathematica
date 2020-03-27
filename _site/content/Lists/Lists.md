@@ -1,0 +1,236 @@
+<!-- Created with the Wolfram Language for Students - Personal Use Only : www.wolfram.com -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <title>
+  Untitled (the Wolfram Language for Students - Personal Use Only : www.wolfram.com)
+ </title>
+ <link href="HTMLFiles/Lists.css" rel="stylesheet" type="text/css" />
+ <style>
+ .Input {
+  border-style: inset;
+}
+ </style>
+</head>
+
+<body>
+
+<p class="Section">
+ Lists
+</p>
+
+
+
+<p class="Text">
+ As we saw, lists can be created using braces
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/Lists_1.png" alt="Lists_1.png" width="129" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/Lists_2.png" alt="Lists_2.png" width="66" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ We can perform arithmetic operations on lists
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/Lists_3.png" alt="Lists_3.png" width="69" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/Lists_4.png" alt="Lists_4.png" width="66" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/Lists_5.png" alt="Lists_5.png" width="67" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/Lists_6.png" alt="Lists_6.png" width="74" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ The entries of a list are accessed using double-brackets (or the special notation [[ ]])<br />The entries are indexed starting with one
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/Lists_7.png" alt="Lists_7.png" width="87" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/Lists_8.png" alt="Lists_8.png" width="8" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/Lists_9.png" alt="Lists_9.png" width="71" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/Lists_10.png" alt="Lists_10.png" width="8" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ We can also index a list using a list
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/Lists_11.png" alt="Lists_11.png" width="108" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/Lists_12.png" alt="Lists_12.png" width="45" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ Lists can be mutated this way
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/Lists_13.png" alt="Lists_13.png" width="103" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/Lists_14.png" alt="Lists_14.png" width="8" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/Lists_15.png" alt="Lists_15.png" width="47" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/Lists_16.png" alt="Lists_16.png" width="66" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Section">
+ Creating Lists
+</p>
+
+
+
+<p class="Text">
+ Simple ranges can be constructed using Range
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/Lists_17.png" alt="Lists_17.png" width="71" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/Lists_18.png" alt="Lists_18.png" width="221" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/Lists_19.png" alt="Lists_19.png" width="92" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/Lists_20.png" alt="Lists_20.png" width="158" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/Lists_21.png" alt="Lists_21.png" width="113" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/Lists_22.png" alt="Lists_22.png" width="95" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ Much more flexible is Table, which allows for the creation of lists using expressions
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/Lists_23.png" alt="Lists_23.png" width="129" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/Lists_24.png" alt="Lists_24.png" width="221" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/Lists_25.png" alt="Lists_25.png" width="157" height="20" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/Lists_26.png" alt="Lists_26.png" width="276" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/Lists_27.png" alt="Lists_27.png" width="166" height="20" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/Lists_28.png" alt="Lists_28.png" width="353" height="34" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ Table can also be used to create matrices (which are represnted as lists of lists)
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/Lists_29.png" alt="Lists_29.png" width="298" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/Lists_30.png" alt="Lists_30.png" width="616" height="102" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ Matrices can be displayed nicely using MatrixForm
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/Lists_31.png" alt="Lists_31.png" width="117" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/Lists_32.png" alt="Lists_32.png" width="263" height="168" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ <span style='font-weight: bold;'>Note:</span> functions can also be evaluated using <span style='font-weight: bold;'>postfix notation</span> with the // operator
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/Lists_33.png" alt="Lists_33.png" width="125" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/Lists_34.png" alt="Lists_34.png" width="263" height="168" style="vertical-align:middle" />
+</p>
+
+
+
+
+<div style="font-family:Helvetica; font-size:11px; width:100%; border:1px none #999999; border-top-style:solid; padding-top:2px; margin-top:20px;">
+ <a href="http://www.wolfram.com/language/" style="color:#000; text-decoration:none;">
+  <span style="color:#555555">Created with the Wolfram Language</span> 
+ </a>
+</div>
+</body>
+
+</html>

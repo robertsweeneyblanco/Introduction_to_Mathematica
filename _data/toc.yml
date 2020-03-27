@@ -37,4 +37,29 @@
   url: /Expressions/Expressions
   not_numbered: false
   expand_sections: false
+  
+- title: Plotting
+  url: /Plotting/Plotting
+  not_numbered: false
+  expand_sections: false
+  
+- title: Lists
+  url: /Lists/Lists
+  not_numbered: false
+  expand_sections: false
+  
+- title: Calculus
+  url: /Calculus/Calculus
+  not_numbered: false
+  expand_sections: false
+  
+- title: Functional Programming
+  url: /Functional_Programming/Functional_Programming
+  not_numbered: false
+  expand_sections: false
+  
+- title: Procedural Control Flow
+  url: /Procedural_Control_Flow/Procedural_Control_Flow
+  not_numbered: false
+  expand_sections: false
 
