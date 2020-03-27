@@ -1,0 +1,311 @@
+---
+redirect_from:
+  - "/evaluations/evaluations"
+title: |-
+  Evaluations
+pagenum: 11
+prev_page:
+  url: /Expressions_2/Expressions_2.html
+next_page:
+  url: /Compiling_and_Generating_Code/Compiling_and_Generating_Code.html
+suffix: .md
+search: p evaluations png class style htmlfiles width img src alt height vertical align middle text input output span wolfram font symbol rules language only www gif print px com border section mathematica order top created students personal html head title href css body symbols evaluated value replace ownvalues rhs evaluate rule functions italicfib applied trace div none color xmlns w org xhtml untitled link rel stylesheet type inset suppose start undefined assign using set does every instance italicx its uses global table evaluating calling rarr typed gt means lhs holdpattern expressing without having transformed existing since used setdelayed case italicy
+
+comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
+---
+
+    <main class="jupyter-page">
+    <div id="page-info"><div id="page-title">Evaluations</div>
+</div>
+    <div class="jb_cell">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<!-- Created with the Wolfram Language for Students - Personal Use Only : www.wolfram.com -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <title>
+  Untitled (the Wolfram Language for Students - Personal Use Only : www.wolfram.com)
+ </title>
+ <link href="HTMLFiles/Evaluations.css" rel="stylesheet" type="text/css" />
+ <style>
+ .Input {
+  border-style: inset;
+}
+ </style>
+</head>
+
+<body>
+
+<p class="Section">
+ How are symbols evaluated
+</p>
+
+
+
+<p class="Text">
+ Suppose we start with an undefined symbol
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/Evaluations_1.png" alt="Evaluations_1.png" width="8" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/Evaluations_2.png" alt="Evaluations_2.png" width="8" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ We can assign a value to this symbol using = (Set)
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/Evaluations_3.png" alt="Evaluations_3.png" width="87" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/Evaluations_4.png" alt="Evaluations_4.png" width="62" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ How does Mathematica know to replace every instance of <span style='font-style: italic;'>x</span> with its value?
+</p>
+
+
+
+<p class="Text">
+ It uses a global look-up table. We can find the rules for evaluating symbols by calling OwnValues
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/Evaluations_5.png" alt="Evaluations_5.png" width="94" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/Evaluations_6.png" alt="Evaluations_6.png" width="206" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ The symbol :&rarr; (typed :&gt;) means replace the lhs with the rhs, and only then evaluate the rhs
+</p>
+
+
+
+<p class="Text">
+ HoldPattern is a way of expressing a rule for a symbol without having the symbol transformed by other existing rules
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/Evaluations_7.png" alt="Evaluations_7.png" width="95" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/Evaluations_8.png" alt="Evaluations_8.png" width="94" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/Evaluations_9.png" alt="Evaluations_9.png" width="207" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ Since we used SetDelayed, we see that in this case <span style='font-style: italic;'>y</span> is replaced by a new random number each time
+</p>
+
+
+
+<p class="Section">
+ How functions are evaluated
+</p>
+
+
+
+<p class="Text">
+ Recall our Fibonacci sequence
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/Evaluations_10.gif" alt="Evaluations_10.gif" width="233" height="60" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/Evaluations_11.png" alt="Evaluations_11.png" width="109" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/Evaluations_12.png" alt="Evaluations_12.png" width="16" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ <span style='font-style: italic;'>fib</span> has no OwnValues. That&rsquo;s because if we evaluate
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/Evaluations_13.png" alt="Evaluations_13.png" width="23" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/Evaluations_14.png" alt="Evaluations_14.png" width="23" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ no rule is applied. Rules are only applied if we give an argument to <span style='font-style: italic;'>fib</span>
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/Evaluations_15.png" alt="Evaluations_15.png" width="47" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/Evaluations_16.png" alt="Evaluations_16.png" width="8" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ These kinds of rules (that require arguments) are known as DownValues
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/Evaluations_17.png" alt="Evaluations_17.png" width="117" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/Evaluations_18.png" alt="Evaluations_18.png" width="379" height="39" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ The order of these rules shows the order in which Mathematica will attempt to apply them
+</p>
+
+
+
+<p class="Text">
+ There are also UpValues and SubValues, but they are a bit obscure...
+</p>
+
+
+
+<p class="Section">
+ Understanding function evaluation
+</p>
+
+
+
+<p class="Text">
+ Trace helps us understand the order in which Mathematica evaluates expressions
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/Evaluations_19.png" alt="Evaluations_19.png" width="174" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/Evaluations_20.png" alt="Evaluations_20.png" width="99" height="34" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/Evaluations_21.png" alt="Evaluations_21.png" width="229" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/Evaluations_22.png" alt="Evaluations_22.png" width="545" height="34" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ Trace will not show the inner workings of all functions
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/Evaluations_23.png" alt="Evaluations_23.png" width="234" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/Evaluations_24.gif" alt="Evaluations_24.gif" width="360" height="216" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/Evaluations_25.png" alt="Evaluations_25.png" width="244" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/Evaluations_26.png" alt="Evaluations_26.png" width="150" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/Evaluations_27.png" alt="Evaluations_27.png" width="299" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/Evaluations_28.png" alt="Evaluations_28.png" width="589" height="60" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ However, FindRoot supports EvaluationMonitor
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/Evaluations_29.png" alt="Evaluations_29.png" width="471" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/Evaluations_30.png" alt="Evaluations_30.png" width="14" height="16" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/Evaluations_31.png" alt="Evaluations_31.png" width="50" height="16" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/Evaluations_32.png" alt="Evaluations_32.png" width="50" height="16" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/Evaluations_33.png" alt="Evaluations_33.png" width="50" height="16" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/Evaluations_34.png" alt="Evaluations_34.png" width="150" height="17" style="vertical-align:middle" />
+</p>
+
+
+
+
+<div style="font-family:Helvetica; font-size:11px; width:100%; border:1px none #999999; border-top-style:solid; padding-top:2px; margin-top:20px;">
+ <a href="http://www.wolfram.com/language/" style="color:#000; text-decoration:none;">
+  <span style="color:#555555">Created with the Wolfram Language</span> 
+ </a>
+</div>
+</body>
+
+</html>
+</div>
+</div>
+</div>
+</div>
+
+ 
+
+
+    </main>
+    

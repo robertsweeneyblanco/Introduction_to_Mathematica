@@ -163,12 +163,6 @@
  Mathematica will manipulate the expression with variables held in an unevaluated form
 </p>
 
-
-
-<p class="Input">
- <img src="HTMLFiles/Expressions_7.gif" alt="Expressions_7.gif" width="613" height="409" style="vertical-align:middle" />
-</p>
-
 <p class="Output">
  <img src="HTMLFiles/Expressions_8.gif" alt="Expressions_8.gif" width="613" height="409" style="vertical-align:middle" />
 </p>

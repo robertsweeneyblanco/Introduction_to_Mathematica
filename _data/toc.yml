@@ -63,3 +63,22 @@
   not_numbered: false
   expand_sections: false
 
+- title: Graphs
+  url: /Graphs/Graphs
+  not_numbered: false
+  expand_sections: false
+  
+- title: Expressions II
+  url: /Expressions_2/Expressions_2
+  not_numbered: false
+  expand_sections: false
+  
+- title: Evaluations
+  url: /Evaluations/Evaluations
+  not_numbered: false
+  expand_sections: false
+
+- title: Compiling_and_Generating_Code
+  url: /Compiling_and_Generating_Code/Compiling_and_Generating_Code
+  not_numbered: false
+  expand_sections: false
