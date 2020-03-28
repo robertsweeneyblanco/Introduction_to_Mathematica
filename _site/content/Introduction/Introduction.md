@@ -3,9 +3,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
  <title>
-  Introduction (the Wolfram Language for Students - Personal Use Only : www.wolfram.com)
+  IntroductionEx (the Wolfram Language for Students - Personal Use Only : www.wolfram.com)
  </title>
- <link href="HTMLFiles/Introduction.css" rel="stylesheet" type="text/css" />
+ <link href="HTMLFiles/IntroductionEx.css" rel="stylesheet" type="text/css" />
  <style>
  .Input {
   border-style: inset;
@@ -14,6 +14,18 @@
 </head>
 
 <body>
+
+<p class="Section">
+ What is Mathematica?
+</p>
+
+
+
+<p class="Text">
+ Mathematica is a powerful symbolic computation program running the Wolfram Language. It was created by Stephen Wolfram and is used widely for mathematical, scientific, and engineering applications. 
+</p>
+
+
 
 <p class="Section">
  The notebook interface
@@ -46,17 +58,17 @@
 
 
 <p class="Text">
- <span class="InputInline"><span><img src="HTMLFiles/Introduction_1.gif" alt="Introduction_1.gif" width="360" height="282" style="vertical-align:middle" /></span></span>
+ <span class="InputInline"><span><img src="HTMLFiles/IntroductionEx_1.gif" alt="IntroductionEx_1.gif" width="360" height="282" style="vertical-align:middle" /></span></span>
 </p>
 
 
 
 <p class="Input">
- <img src="HTMLFiles/Introduction_2.png" alt="Introduction_2.png" width="30" height="17" style="vertical-align:middle" />
+ <img src="HTMLFiles/IntroductionEx_2.png" alt="IntroductionEx_2.png" width="30" height="17" style="vertical-align:middle" />
 </p>
 
 <p class="Output">
- <img src="HTMLFiles/Introduction_3.png" alt="Introduction_3.png" width="8" height="17" style="vertical-align:middle" />
+ <img src="HTMLFiles/IntroductionEx_3.png" alt="IntroductionEx_3.png" width="8" height="17" style="vertical-align:middle" />
 </p>
 
 
